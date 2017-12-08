@@ -1,0 +1,7 @@
+reset;
+model PerishableFlow.mod;
+data PerishableFlow.dat;
+option solver "/root/Downloads/ampl_linux-intel64/gurobi";
+solve;
+display f;
+display f1, f2, f3;
